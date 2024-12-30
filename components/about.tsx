@@ -19,7 +19,7 @@ export default function About() {
           <div className="about-text">
             <div className="about-title mt-4">
               <h1 className="text-5xl">{text.en.aboutHi}</h1>
-              <h1 className="text-5xl">
+              <h1 className="text-5xl mt-1">
                 {text.en.aboutIam}{" "}
                 <span className="tanzeem text-8xl">{text.en.aboutName}</span>
               </h1>
@@ -51,13 +51,6 @@ export default function About() {
           </div>
           <div className="about-avatar filter drop-shadow-crimson">
             <Image src={ProfileImage} alt="bg-img" />
-          </div>
-        </div>
-        <div className="icon-wrapper">
-          <div className="bottom-icon">
-            <Link href="#more">
-              <BsChevronDown />
-            </Link>
           </div>
         </div>
       </div>

@@ -7,7 +7,6 @@ import TS from "./../images/ts-logo.png";
 import NPM from "./../images/npm-logo.png";
 import YARN from "./../images/yarn-logo.png";
 import Git from "./../images/git-logo.png";
-import Native from "./../images/react-native.png";
 import Next from "./../images/nextjs-logo.png";
 import NodeJS from "./../images/nodej-js.png";
 import Python from "./../images/python.png";
@@ -107,11 +106,6 @@ export const allSkills: Skill[] = [
     name: "CSS",
     url: "https://developer.mozilla.org/en-US/docs/Web/CSS",
     img: CSS,
-  },
-  {
-    name: "React Native",
-    url: "https://reactnative.dev/",
-    img: Native,
   },
   {
     name: "NPM",
