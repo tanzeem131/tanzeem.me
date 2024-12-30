@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      dropShadow: {
+        crimson: "0 0 0.5rem #f2613f",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",

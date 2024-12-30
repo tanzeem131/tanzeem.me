@@ -20,9 +20,10 @@ export const text = {
 
     // about page
     aboutHi: "Hi! 👋",
-    aboutIam: "I'm ",
-    aboutName: "Tanzeem ",
+    aboutIam: "I'm",
+    aboutName: "Tanzeem",
     aboutSkilled: "skilled",
+    aboutRole: "fullstack developer",
     aboutText:
       "from India with expertize in MERN stack development, enthusiastic about web3 and react native for mobile applications development, constantly seeking opportunities for continuous learning and growth.",
 
