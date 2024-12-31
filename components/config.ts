@@ -1,23 +1,26 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import React from "./../images/react-logo.png";
-import HTML from "./../images/html5-logo.png";
-import CSS from "./../images/css-logo.png";
-import JS from "./../images/js-logo.png";
-import TS from "./../images/ts-logo.png";
-import NPM from "./../images/npm-logo.png";
-import YARN from "./../images/yarn-logo.png";
-import Git from "./../images/git-logo.png";
-import Next from "./../images/nextjs-logo.png";
-import NodeJS from "./../images/nodej-js.png";
-import Python from "./../images/python.png";
-import SQL from "./../images/sql.png";
-import MongoDb from "./../images/mongodb-logo.png";
-import MySql from "./../images/mysql-logo.png";
-import Supabase from "./../images/Supabase-logo.png";
-import Prisma from "./../images/prisma-logo.png";
-import Express from "./../images/express-logo.png";
-import GSAP from "./../images/gsap-logo.jpg";
-import Redux from "./../images/redux.png";
+import React from "@/images/react-logo.png";
+import HTML from "@/images/html5-logo.png";
+import CSS from "@/images/css-logo.png";
+import JS from "@/images/js-logo.png";
+import TS from "@/images/ts-logo.png";
+import NPM from "@/images/npm-logo.png";
+import YARN from "@/images/yarn-logo.png";
+import Git from "@/images/git-logo.png";
+import Next from "@/images/nextjs-logo.png";
+import NodeJS from "@/images/nodej-js.png";
+import Python from "@/images/python.png";
+import SQL from "@/images/sql.png";
+import MongoDb from "@/images/mongodb-logo.png";
+import MySql from "@/images/mysql-logo.png";
+import Supabase from "@/images/Supabase-logo.png";
+import Prisma from "@/images/prisma-logo.png";
+import Express from "@/images/express-logo.png";
+import GSAP from "@/images/gsap-logo.jpg";
+import Redux from "@/images/redux.png";
+import Canvas from "@/images/canvashtml.jpg";
+import Jest from "@/images/jest.png";
+import Sass from "@/images/sass.svg";
 
 export type Skill = {
   name: string;
@@ -47,7 +50,7 @@ export const additionalSkills: Skill[] = [
   {
     name: "Contribution",
     url: "",
-    img: "",
+    img: Git,
   },
 ];
 
@@ -103,9 +106,19 @@ export const allSkills: Skill[] = [
     img: HTML,
   },
   {
+    name: "canvas-html",
+    url: "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/canvas",
+    img: Canvas,
+  },
+  {
     name: "CSS",
     url: "https://developer.mozilla.org/en-US/docs/Web/CSS",
     img: CSS,
+  },
+  {
+    name: "Sass",
+    url: "https://sass-lang.com/",
+    img: Sass,
   },
   {
     name: "NPM",
@@ -131,6 +144,11 @@ export const allSkills: Skill[] = [
     name: "Prisma",
     url: "https://prisma.io/",
     img: Prisma,
+  },
+  {
+    name: "JestJs",
+    url: "https://jestjs.io/",
+    img: Jest,
   },
   {
     name: "PostgreSQL",
@@ -171,7 +189,7 @@ export const skillsEn: SkillsType[] = [
   {
     type: "Tools",
     description: "Tools I use during my development:",
-    skills: getSkill(["NPM", "YARN", "Git", "Supabase", "Prisma"]),
+    skills: getSkill(["NPM", "YARN", "Git", "Supabase", "Prisma", "JestJs"]),
   },
   {
     type: "Data",

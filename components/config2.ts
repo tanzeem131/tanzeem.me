@@ -1,16 +1,17 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { Skill, getSkill } from "./config";
-
-import Forkify from "./../images/forkify.png";
-import UrbanTastes from "./../images/urbantastes.png";
-import Trackr from "./../images/trackr.png";
-import GSAP1 from "./../images/gsaplandingpage1.png";
-import GSAP2 from "./../images/gsaplandingpage2.png";
-import Weather from "./../images/weatherapp.png";
-import Infinity from "./../images/infinitybusiness.png";
-import BankistUser from "./../images/bankist-user-page.png";
-import Bankist from "./../images/bankist.png";
-import Guess from "./../images/guessingthenumber.png";
+import Forkify from "@/images/forkify.png";
+import PortfolioOld from "@/images/portfolio-old.png";
+import PortfolioNew from "@/images/portfolio-new.png";
+import UrbanTastes from "@/images/urbantastes.png";
+import Trackr from "@/images/trackr.png";
+import GSAP1 from "@/images/gsaplandingpage1.png";
+import GSAP2 from "@/images/gsaplandingpage2.png";
+import Weather from "@/images/weatherapp.png";
+import Infinity from "@/images/infinitybusiness.png";
+import BankistUser from "@/images/bankist-user-page.png";
+import Bankist from "@/images/bankist.png";
+import Guess from "@/images/guessingthenumber.png";
 
 export type Project = {
   name: string;
@@ -32,6 +33,7 @@ export const projectsEn: Project[] = [
     technologies: getSkill([
       "React",
       "Redux",
+      "JestJs",
       "javascript",
       "css",
       "git",
@@ -39,12 +41,37 @@ export const projectsEn: Project[] = [
     ]),
   },
   {
+    name: "Portfolio",
+    description:
+      "Explore my portfolio for a glimpse into my diverse projects and coding expertise.",
+    image: PortfolioNew,
+    url: "https://tanzeem.me/",
+    github: "https://github.com/tanzeem131/portfolio",
+    technologies: getSkill(["TypeScript", "NEXT.js", "css", "git", "npm"]),
+  },
+  {
     name: "Forkify",
     description: "A recipe search application made with javascript",
     image: Forkify,
     url: "https://forkify-tanzeem131.netlify.app/",
     github: "https://github.com/tanzeem131/Forkify",
-    technologies: getSkill(["react", "javascript", "css", "git", "npm"]),
+    technologies: getSkill(["javascript", "html", "Sass", "css", "git", "npm"]),
+  },
+  {
+    name: "Portfolio",
+    description:
+      "Explore my portfolio for a glimpse into my diverse projects and coding expertise.",
+    image: PortfolioOld,
+    url: "https://tanzeem.me/",
+    github: "https://github.com/tanzeem131/portfolio",
+    technologies: getSkill([
+      "canvas-html",
+      "html",
+      "javascript",
+      "css",
+      "git",
+      "npm",
+    ]),
   },
   {
     name: "Infinity Business",
@@ -127,6 +154,6 @@ export const projectsEn: Project[] = [
     image: GSAP2,
     url: "https://github.com/tanzeem131/GSAP-landing-page",
     github: "https://github.com/tanzeem131/GSAP-landing-page",
-    technologies: getSkill(["GSAP", "javascript", "css", "npm", "gsap"]),
+    technologies: getSkill(["GSAP", "javascript", "css", "npm"]),
   },
 ];
