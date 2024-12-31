@@ -60,7 +60,7 @@
 }
 
 .icons {
-  font-size: 2.75rem;
+  font-size: 2rem;
   color: var(--text-white);
   display: flex;
   flex-direction: row;

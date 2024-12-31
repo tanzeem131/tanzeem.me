@@ -14,8 +14,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   margin-top: 1vh;
-  margin-bottom: 3vh;
-  gap: 2rem;
+  margin-bottom: 1vh;
+  gap: 0rem;
 }
 
 .skills-type {

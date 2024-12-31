@@ -46,7 +46,7 @@ const Projects = () => {
                 <div className="project-tags flex flex-wrap gap-1 items-center">
                   {project.technologies.map((tech: Skill) => {
                     return (
-                      <a key={uuidv4()} href={tech.url}>
+                      <Link key={uuidv4()} href={tech.url}>
                         <div className="tech-tag flex items-center gap-1 bg-cyan-100 text-black p-1 rounded-lg">
                           <Image
                             alt="text-img"
@@ -55,7 +55,7 @@ const Projects = () => {
                           />
                           <div>{tech.name}</div>
                         </div>
-                      </a>
+                      </Link>
                     );
                   })}
                 </div>

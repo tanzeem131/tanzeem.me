@@ -21,6 +21,7 @@ import Redux from "@/images/redux.png";
 import Canvas from "@/images/canvashtml.jpg";
 import Jest from "@/images/jest.png";
 import Sass from "@/images/sass.svg";
+import Tailwindcss from "@/images/tailwindcss.png";
 
 export type Skill = {
   name: string;
@@ -114,6 +115,11 @@ export const allSkills: Skill[] = [
     name: "CSS",
     url: "https://developer.mozilla.org/en-US/docs/Web/CSS",
     img: CSS,
+  },
+  {
+    name: "TailwindCSS",
+    url: "https://tailwindcss.com/",
+    img: Tailwindcss,
   },
   {
     name: "Sass",

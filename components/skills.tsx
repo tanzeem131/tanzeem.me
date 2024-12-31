@@ -7,7 +7,7 @@ import Link from "next/link";
 
 export default function Skills() {
   return (
-    <div className="bg-skills" id="more">
+    <div className="bg-skills">
       <p className="sm:text-8xl text-3xl sm:font-extrabold font-bold">
         {text.en.skillsetHeading}
       </p>

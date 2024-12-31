@@ -6,26 +6,26 @@ export const text = {
     // projetcs page
     projects: projectsEn,
     projectsHeading: "Projects",
-    projectsDescription: "Take a look at my web development projects:",
+    projectsDescription: "Check out the web development projects I've built!",
     projectsViewMore: "View More",
     projectsViewLess: "View Less",
 
     // skillset page
     skills: skillsEn,
-    skillsetHeading: "Skillset",
-    skillsetDescription: "Technologies I use in my development:",
+    skillsetHeading: "Skills",
+    skillsetDescription: "Tools & Technologies I work with.",
 
     // contact page
     contactHeading: "Contact Me",
 
     // about page
-    aboutHi: "Hi! 👋",
+    aboutHi: "Hi there,",
     aboutIam: "I'm",
     aboutName: "Tanzeem",
-    aboutSkilled: "skilled",
+    aboutSkilled: "a passionate",
     aboutRole: "fullstack developer",
     aboutText:
-      "from India with expertize in MERN stack development, enthusiastic about web3 and react native for mobile applications development, constantly seeking opportunities for continuous learning and growth.",
+      "from India with a strong foundation in JavaScript, TypeScript, Next.js, React, Node.js and MongoDB. Eager to apply my skills to real-world projects, I am passionate about learning, problem-solving, and contributing to impactful solutions.",
 
     // others
     contactButton: "Contact Me",
