@@ -59,7 +59,7 @@ export const projectsEn: Project[] = [
   },
   {
     name: "Forkify",
-    description: "A recipe search application made with javascript",
+    description: "A recipe search application made with javascript.",
     image: Forkify,
     url: "https://forkify-tanzeem131.netlify.app/",
     github: "https://github.com/tanzeem131/Forkify",
@@ -70,7 +70,7 @@ export const projectsEn: Project[] = [
     description:
       "Explore my portfolio for a glimpse into my diverse projects and coding expertise.",
     image: PortfolioOld,
-    url: "https://tanzeem.me/",
+    url: "https://tanzeem-iiit.netlify.app/",
     github: "https://github.com/tanzeem131/portfolio",
     technologies: getSkill([
       "canvas-html",
@@ -84,7 +84,7 @@ export const projectsEn: Project[] = [
   {
     name: "Infinity Business",
     description:
-      "Build a website that contains several unique design for different websites",
+      "Build a website that contains several unique design for different websites.",
     image: Infinity,
     url: "https://github.com/vinayak-upadh1/OOP-PROJECT-Infinity-Business",
     github:
@@ -100,7 +100,7 @@ export const projectsEn: Project[] = [
   },
   {
     name: "Weather App",
-    description: "Build an application to find the weather of a city",
+    description: "Build an application to find the weather of a city.",
     image: Weather,
     url: "https://today-weathercast.netlify.app/",
     github: "https://github.com/tanzeem131/Weather-app",
@@ -115,7 +115,7 @@ export const projectsEn: Project[] = [
   },
   {
     name: "Bankist UI",
-    description: "An online fictional Bank",
+    description: "An online fictional Bank.",
     image: Bankist,
     url: "https://bankist-connect.netlify.app/",
     github:
@@ -124,7 +124,7 @@ export const projectsEn: Project[] = [
   },
   {
     name: "Bankist Dashboard",
-    description: "Bankist user page that show the transactions details",
+    description: "Bankist user page that show the transactions details.",
     image: BankistUser,
     url: "https://bankistapppage.netlify.app/",
     github: "https://github.com/tanzeem131/Bankist-App",
@@ -141,7 +141,7 @@ export const projectsEn: Project[] = [
   },
   {
     name: "Guess the number",
-    description: "Guess the number is a small web game",
+    description: "Guess the number is a small web game.",
     image: Guess,
     url: "https://guessingthenumbers.netlify.app/",
     github:
