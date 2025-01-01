@@ -41,7 +41,9 @@ export default function Projects() {
             <div key={uuidv4()} className="project">
               <Image src={project.image} alt="Project Image" />
               <div className="project-info">
-                <p className="text-lg">{project.name}</p>
+                <p className="text-[17px] bg-cyan-100 text-black w-fit px-2 rounded-full">
+                  {project.name}
+                </p>
                 <p className="text-sm">{project.description}</p>
                 <div className="project-tags flex flex-wrap gap-1 items-center">
                   {project.technologies.map((tech: Skill) => {
