@@ -17,6 +17,8 @@ export const text = {
 
     // contact page
     contactHeading: "Contact Me",
+    contactDesc:
+      "If you have any questions or want to hire me, please contact me.",
 
     // about page
     aboutHi: "Hi there,",
