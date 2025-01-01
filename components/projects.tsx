@@ -39,7 +39,12 @@ export default function Projects() {
         {text.en.projects.slice(0, amount).map((project: Project) => {
           return (
             <div key={uuidv4()} className="project">
-              <Image src={project.image} alt="Project Image" />
+              <Image
+                placeholder="blur"
+                loading="lazy"
+                src={project.image}
+                alt="Project Image"
+              />
               <div className="project-info">
                 <p className="text-[17px] bg-cyan-100 text-black w-fit px-2 rounded-full">
                   {project.name}

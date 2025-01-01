@@ -59,7 +59,12 @@ export default function About() {
             </div>
           </div>
           <div className="about-avatar filter drop-shadow-crimson">
-            <Image src={ProfileImage} alt="bg-img" />
+            <Image
+              loading="lazy"
+              placeholder="blur"
+              src={ProfileImage}
+              alt="bg-img"
+            />
           </div>
         </div>
       </div>
