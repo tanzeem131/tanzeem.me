@@ -39,11 +39,11 @@ export default function About() {
               <Link href="https://github.com/tanzeem131">
                 <AiFillGithub className="icon" />
               </Link>
-              <Link href="https://x.com/Tanzeem_Dev">
-                <RiTwitterXLine className="icon" />
-              </Link>
               <Link href="https://www.linkedin.com/in/mr-tanzeem/">
                 <AiOutlineLinkedin className="icon" />
+              </Link>
+              <Link href="https://x.com/Tanzeem_Dev">
+                <RiTwitterXLine className="icon" />
               </Link>
               <Link href="mailto:dev.tanzeem@gmail.com">
                 <AiOutlineMail className="icon" />
@@ -53,7 +53,7 @@ export default function About() {
               <Link href="mailto:dev.tanzeem@gmail.com">
                 <button className="flex flex-nowrap justify-stretch text-3xl p-1 items-center bg-[#f2613f] text-black hover:bg-[#d25036]">
                   {text.en.contactButton}
-                  <AiOutlineArrowRight className="text-2xl" />
+                  <AiOutlineArrowRight className="text-2xl sm:ml-2 ml-1" />
                 </button>
               </Link>
             </div>

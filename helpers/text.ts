@@ -28,6 +28,6 @@ export const text = {
       "from India with a strong foundation in JavaScript, TypeScript, Next.js, React, Node.js and MongoDB. Eager to apply my skills to real-world projects, I am passionate about learning, problem-solving, and contributing to impactful solutions.",
 
     // others
-    contactButton: "Contact Me",
+    contactButton: "Hire Me",
   },
 };
