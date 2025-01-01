@@ -52,7 +52,7 @@ export const contacts: Contact[] = [
   },
 ];
 
-const Contact = () => {
+export default function Contact() {
   return (
     <div className="bg-contact">
       <div className="contact-header">
@@ -91,6 +91,4 @@ const Contact = () => {
       </div>
     </div>
   );
-};
-
-export default Contact;
+}
