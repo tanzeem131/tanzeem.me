@@ -6,7 +6,7 @@ import {
 } from "react-icons/ai";
 import "./About.css";
 import { text } from "@/helpers/text";
-import ProfileImage from "./../images/profile-img.jpg";
+import ProfileImage from "@/images/profile-img.jpg";
 import Image from "next/image";
 import Link from "next/link";
 import { RiTwitterXLine } from "react-icons/ri";
