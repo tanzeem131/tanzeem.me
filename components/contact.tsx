@@ -1,9 +1,5 @@
 import { MdOutlineEmail } from "react-icons/md";
-import {
-  AiFillGithub,
-  AiFillTwitterCircle,
-  AiOutlineArrowRight,
-} from "react-icons/ai";
+import { AiFillGithub, AiOutlineArrowRight } from "react-icons/ai";
 import { RiTwitterXLine } from "react-icons/ri";
 import { IoLocationOutline } from "react-icons/io5";
 import { FaDiscord } from "react-icons/fa";
