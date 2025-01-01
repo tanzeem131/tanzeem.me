@@ -9,7 +9,7 @@ import { text } from "@/helpers/text";
 import Image from "next/image";
 import Link from "next/link";
 
-const Projects = () => {
+export default function Projects() {
   const [amount, setAmount] = useState(8);
 
   const viewMore = () => {
@@ -84,6 +84,4 @@ const Projects = () => {
       </button>
     </div>
   );
-};
-
-export default Projects;
+}

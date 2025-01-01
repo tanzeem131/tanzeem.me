@@ -23,7 +23,6 @@ export default function About() {
                   {text.en.aboutHi}
                 </span>
               </span>
-              {/* <h1 className="text-5xl">{text.en.aboutHi}</h1> */}
               <h1 className="text-5xl mt-1">
                 {text.en.aboutIam}{" "}
                 <span className="tanzeem text-8xl">{text.en.aboutName}</span>

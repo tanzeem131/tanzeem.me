@@ -25,7 +25,8 @@ export type Project = {
 export const projectsEn: Project[] = [
   {
     name: "Urbantastes",
-    description: "A recipe search application made with javascript",
+    description:
+      "Developed the frontend of a restaurant application inspired by Swiggy, providing a seamless user experience for browsing, searching, and adding food items to the cart.",
     image: UrbanTastes,
     url: "https://urbantastes.netlify.app/",
     github:
@@ -114,7 +115,7 @@ export const projectsEn: Project[] = [
   },
   {
     name: "Bankist UI",
-    description: "An online fictional online Bank",
+    description: "An online fictional Bank",
     image: Bankist,
     url: "https://bankist-connect.netlify.app/",
     github:
@@ -125,8 +126,8 @@ export const projectsEn: Project[] = [
     name: "Bankist Dashboard",
     description: "Bankist user page that show the transactions details",
     image: BankistUser,
-    url: "https://projects.tijan.dev/simple-chat",
-    github: "https://github.com/0xTijan/simple-crypto-chat",
+    url: "https://bankistapppage.netlify.app/",
+    github: "https://github.com/tanzeem131/Bankist-App",
     technologies: getSkill(["html", "css", "javascript", "git", "npm"]),
   },
   {
