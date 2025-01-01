@@ -4,6 +4,7 @@ import {
   AiFillTwitterCircle,
   AiOutlineArrowRight,
 } from "react-icons/ai";
+import { RiTwitterXLine } from "react-icons/ri";
 import { IoLocationOutline } from "react-icons/io5";
 import { FaDiscord } from "react-icons/fa";
 import { v4 as uuidv4 } from "uuid";
@@ -28,7 +29,7 @@ export const contacts: Contact[] = [
   {
     name: "TWITTER:",
     info: "@Tanzeem_Dev",
-    icon: <AiFillTwitterCircle className="contact-icon" />,
+    icon: <RiTwitterXLine className="contact-icon" />,
     url: "https://twitter.com/Tanzeem_Dev",
   },
   {
