@@ -30,7 +30,7 @@ export const timelineData: Milestone[] = [
   },
   {
     id: 3,
-    date: "2024",
+    date: "2024-2025",
     title: "100xdevs",
     icon: SiFuturelearn,
     color: "bg-[var(--grey-bg)]",
@@ -38,7 +38,7 @@ export const timelineData: Milestone[] = [
   },
   {
     id: 4,
-    date: "2024",
+    date: "2024-2025",
     title: "Freelance",
     icon: SiFreelancer,
     color: "bg-[var(--grey-bg)]",
