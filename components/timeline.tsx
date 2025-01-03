@@ -4,7 +4,9 @@ import "./global.css";
 export default function Timeline() {
   return (
     <div className="max-w-fit mx-auto">
-      <h1 className="text-3xl font-bold mb-8 text-center">My Learnings</h1>
+      <h1 className="text-3xl font-sans font-semibold my-8 text-center">
+        My Learnings
+      </h1>
       <div className="relative wrap overflow-hidden sm:p-10 p-0 h-full">
         <div className="border-2 absolute border-opacity-50 border-gray-800 h-full left-1/2"></div>
         {timelineData.map((milestone, index) => (

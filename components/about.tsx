@@ -58,13 +58,8 @@ export default function About() {
               </Link>
             </div>
           </div>
-          <div className="about-avatar filter drop-shadow-crimson">
-            <Image
-              loading="lazy"
-              placeholder="blur"
-              src={ProfileImage}
-              alt="bg-img"
-            />
+          <div className="about-avatar">
+            <Image placeholder="blur" src={ProfileImage} alt="bg-img" />
           </div>
         </div>
       </div>
