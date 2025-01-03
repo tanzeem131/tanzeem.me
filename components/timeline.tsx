@@ -24,9 +24,7 @@ export default function Timeline() {
               </h1>
             </div>
             <div
-              className={`order-1 sm:w-3/12 w-10/12 px-6 py-4 rounded-lg shadow-xl ${
-                milestone.color
-              } text-white transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-${
+              className={`order-1 sm:w-3/12 w-10/12 px-6 py-4 rounded-lg shadow-xl bg-transparent/50 text-white transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-${
                 milestone.color.split("-")[1]
               }-400`}
             >
