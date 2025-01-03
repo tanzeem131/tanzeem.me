@@ -1,10 +1,11 @@
 import { timelineData } from "./config3";
 import "./global.css";
+import "./About.css";
 
 export default function Timeline() {
   return (
-    <div className="max-w-fit mx-auto">
-      <h1 className="text-3xl font-sans font-semibold my-8 text-center">
+    <div className="max-w-fit mx-auto bg-[var(--dark-bg)]">
+      <h1 className="text-3xl font-sans mb-8 font-semibold text-center">
         My Learnings
       </h1>
       <div className="relative wrap overflow-hidden sm:p-10 p-0 h-full">

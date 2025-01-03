@@ -26,7 +26,11 @@ export default function Navbar() {
   }, []);
 
   return (
-    <div className={`navbar ${showNavbar ? "show" : ""}`}>
+    <div
+      className={`navbar ${
+        showNavbar ? "show" : ""
+      } filter drop-shadow-crimson`}
+    >
       <div>
         <div className="navbarText">
           <h1 className="name text-2xl">Tanzeem</h1>

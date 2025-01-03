@@ -76,6 +76,7 @@ export const projectsEn: Project[] = [
       "canvas-html",
       "html",
       "javascript",
+      "Email.js",
       "css",
       "git",
       "npm",

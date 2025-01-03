@@ -22,6 +22,7 @@ import Canvas from "@/images/canvashtml.jpg";
 import Jest from "@/images/jest.png";
 import Sass from "@/images/sass.svg";
 import Tailwindcss from "@/images/tailwindcss.png";
+import Emailjs from "@/images/emailjs.png";
 
 export type Skill = {
   name: string;
@@ -155,6 +156,11 @@ export const allSkills: Skill[] = [
     name: "JestJs",
     url: "https://jestjs.io/",
     img: Jest,
+  },
+  {
+    name: "Email.js",
+    url: "https://www.emailjs.com/",
+    img: Emailjs,
   },
   {
     name: "PostgreSQL",
