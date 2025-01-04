@@ -5,7 +5,7 @@ import "./About.css";
 export default function Timeline() {
   return (
     <div className="max-w-fit mx-auto bg-[var(--dark-bg)]">
-      <h1 className="text-3xl font-sans mb-8 font-semibold text-center">
+      <h1 className="sm:text-8xl text-6xl mb-8 sm:font-extrabold font-bold text-center">
         My Learnings
       </h1>
       <div className="relative wrap overflow-hidden sm:p-10 p-0 h-full">

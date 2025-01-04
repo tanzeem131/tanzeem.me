@@ -52,7 +52,7 @@ export default function Contact() {
   return (
     <div className="bg-contact">
       <div className="contact-header">
-        <p className="sm:text-8xl text-3xl sm:font-extrabold font-bold">
+        <p className="sm:text-8xl text-6xl sm:font-extrabold font-bold">
           {text.en.contactHeading}
         </p>
         <p className="sm:text-2xl text-lg">{text.en.contactDesc}</p>

@@ -31,7 +31,7 @@ export default function Projects() {
 
   return (
     <div className="bg-projects">
-      <p className="sm:text-8xl text-3xl sm:font-extrabold font-bold">
+      <p className="sm:text-8xl text-6xl sm:font-extrabold font-bold">
         {text.en.projectsHeading}
       </p>
       <p className="sm:text-2xl text-lg mt-2">{text.en.projectsDescription}</p>
