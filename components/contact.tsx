@@ -79,7 +79,7 @@ export default function Contact() {
       </div>
       <div className="button-container flex justify-center">
         <Link href="mailto:dev.tanzeem@gmail.com">
-          <button className="contact-btn rounded-full px-2 flex flex-nowrap justify-center items-center bg-[#f2613f] hover:bg-[#d25036] text-black">
+          <button className="rounded-full sm:text-5xl mt-12 text-4xl font-semibold p-3 flex flex-nowrap justify-center items-center bg-[#f2613f] hover:bg-[#d25036] text-black">
             {text.en.contactButton}
             <AiOutlineArrowRight />
           </button>

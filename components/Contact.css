@@ -49,11 +49,6 @@
   font-weight: 400;
 }
 
-.contact-btn {
-  margin-top: 15vh;
-  transform: scale(2);
-}
-
 .button-container {
   position: relative;
   background-color: var(--dark-bg);
@@ -77,13 +72,5 @@
   .bg-contact {
     padding-left: 5vw;
     padding-right: 5vw;
-  }
-
-  .contact-btn {
-    margin-top: 10vh;
-    transform: scale(1.5);
-    position: absolute;
-    top: 100%;
-    left: 40%;
   }
 }
