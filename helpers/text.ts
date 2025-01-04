@@ -29,6 +29,9 @@ export const text = {
     aboutText:
       "from India with a strong foundation in JavaScript, TypeScript, Next.js, React, Node.js and MongoDB. Eager to apply my skills to real-world projects, I am passionate about learning, problem-solving, and contributing to impactful solutions.",
 
+    //Timeline
+    timelineHeading: "My Learnings",
+
     // others
     contactButton: "Hire Me",
   },
