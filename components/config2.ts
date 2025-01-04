@@ -12,6 +12,7 @@ import Infinity from "@/images/infinitybusiness.png";
 import BankistUser from "@/images/bankist-user-page.png";
 import Bankist from "@/images/bankist.png";
 import Guess from "@/images/guessingthenumber.png";
+import Edurights from "@/images/edurights.png";
 
 export type Project = {
   name: string;
@@ -23,6 +24,23 @@ export type Project = {
 };
 
 export const projectsEn: Project[] = [
+  {
+    name: "Edurights Admission consultancy",
+    description:
+      "Developed the frontend of a restaurant application inspired by Swiggy, providing a seamless user experience for browsing, searching, and adding food items to the cart.",
+    image: Edurights,
+    url: "https://edurights-consultancy.netlify.app/",
+    github: "https://github.com/tanzeem131/edurights-admission-consultancy",
+    technologies: getSkill([
+      "React",
+      "react-hook-form",
+      "javascript",
+      "NodeJS",
+      "TailwindCSS",
+      "git",
+      "npm",
+    ]),
+  },
   {
     name: "Urbantastes",
     description:

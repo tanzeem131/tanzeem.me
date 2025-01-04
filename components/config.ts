@@ -23,6 +23,7 @@ import Jest from "@/images/jest.png";
 import Sass from "@/images/sass.svg";
 import Tailwindcss from "@/images/tailwindcss.png";
 import Emailjs from "@/images/emailjs.png";
+import ReactHookForm from "@/images/react-hook-form.png";
 
 export type Skill = {
   name: string;
@@ -121,6 +122,11 @@ export const allSkills: Skill[] = [
     name: "TailwindCSS",
     url: "https://tailwindcss.com/",
     img: Tailwindcss,
+  },
+  {
+    name: "react-hook-form",
+    url: "https://react-hook-form.com/",
+    img: ReactHookForm,
   },
   {
     name: "Sass",
