@@ -27,7 +27,7 @@ export const projectsEn: Project[] = [
   {
     name: "Edurights Admission consultancy",
     description:
-      "Developed the frontend of a restaurant application inspired by Swiggy, providing a seamless user experience for browsing, searching, and adding food items to the cart.",
+      "As a freelance developer, designed and developed the full application of an admission consulting website, creating a seamless and intuitive interface for form submissions, enabling prospective students to easily provide their details for personalized consultation and guidance.",
     image: Edurights,
     url: "https://edurights-consultancy.netlify.app/",
     github: "https://github.com/tanzeem131/edurights-admission-consultancy",
