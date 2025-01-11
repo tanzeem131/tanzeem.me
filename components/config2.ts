@@ -35,6 +35,7 @@ export const projectsEn: Project[] = [
     technologies: getSkill([
       "NodeJS",
       "Express.Js",
+      "MongoDb",
       "React",
       "javascript",
       "TailwindCSS",
