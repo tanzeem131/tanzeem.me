@@ -50,7 +50,7 @@ export default function About() {
               </Link>
             </div>
             <div className="icons">
-              <Link href="mailto:dev.tanzeem@gmail.com">
+              <Link href="https://drive.google.com/file/d/1TBL6CodDCRoHFIWb1ZQEyd-lrQH-hj5g/view?usp=sharing">
                 <button className="flex flex-nowrap justify-stretch text-3xl p-1 items-center bg-[#f2613f] text-black hover:bg-[#d25036]">
                   {text.en.contactButton}
                   <AiOutlineArrowRight className="text-2xl sm:ml-2 ml-1" />

@@ -24,6 +24,8 @@ import Sass from "@/images/sass.svg";
 import Tailwindcss from "@/images/tailwindcss.png";
 import Emailjs from "@/images/emailjs.png";
 import ReactHookForm from "@/images/react-hook-form.png";
+import DaisyUi from "@/images/daisyui.png";
+import AWS from "@/images/aws.png";
 
 export type Skill = {
   name: string;
@@ -124,6 +126,11 @@ export const allSkills: Skill[] = [
     img: Tailwindcss,
   },
   {
+    name: "Daisy UI",
+    url: "https://daisyui.com/",
+    img: DaisyUi,
+  },
+  {
     name: "react-hook-form",
     url: "https://react-hook-form.com/",
     img: ReactHookForm,
@@ -164,6 +171,11 @@ export const allSkills: Skill[] = [
     img: Jest,
   },
   {
+    name: "AWS",
+    url: "https://aws.amazon.com/",
+    img: AWS,
+  },
+  {
     name: "Email.js",
     url: "https://www.emailjs.com/",
     img: Emailjs,
@@ -201,13 +213,20 @@ export const skillsEn: SkillsType[] = [
       "React Native",
       "NodeJS",
       "Express.Js",
-      "GSAP",
     ]),
   },
   {
     type: "Tools",
     description: "Tools I use during my development:",
-    skills: getSkill(["NPM", "YARN", "Git", "Supabase", "Prisma", "JestJs"]),
+    skills: getSkill([
+      "NPM",
+      "YARN",
+      "Git",
+      "Supabase",
+      "Prisma",
+      "JestJs",
+      "AWS",
+    ]),
   },
   {
     type: "Data",

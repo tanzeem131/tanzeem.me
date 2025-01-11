@@ -13,6 +13,7 @@ import BankistUser from "@/images/bankist-user-page.png";
 import Bankist from "@/images/bankist.png";
 import Guess from "@/images/guessingthenumber.png";
 import Edurights from "@/images/edurights.png";
+import Connect100xdevs from "@/images/connnect100xdevs.png";
 
 export type Project = {
   name: string;
@@ -25,6 +26,25 @@ export type Project = {
 
 export const projectsEn: Project[] = [
   {
+    name: "Connect100xdevs",
+    description:
+      "Building a social media inspired website for developers community where developers can send/accept/reject the request of another developer.",
+    image: Connect100xdevs,
+    url: "https://connect100xdevs.xyz/",
+    github: "https://github.com/tanzeem131/Tinder4Devs",
+    technologies: getSkill([
+      "NodeJS",
+      "Express.Js",
+      "React",
+      "javascript",
+      "TailwindCSS",
+      "Daisy UI",
+      "AWS",
+      "git",
+      "npm",
+    ]),
+  },
+  {
     name: "Edurights Admission consultancy",
     description:
       "As a freelance developer, designed and developed the full application of an admission consulting website, creating a seamless and intuitive interface for form submissions, enabling prospective students to easily provide their details for personalized consultation and guidance.",
@@ -36,6 +56,7 @@ export const projectsEn: Project[] = [
       "react-hook-form",
       "javascript",
       "NodeJS",
+      "Express.Js",
       "TailwindCSS",
       "git",
       "npm",
