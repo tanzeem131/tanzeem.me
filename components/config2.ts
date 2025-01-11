@@ -28,7 +28,7 @@ export const projectsEn: Project[] = [
   {
     name: "Connect100xdevs",
     description:
-      "Building a social media inspired website for developers community where developers can send/accept/reject the request of another developer.",
+      "Building a social media-inspired website for the developer community where developers can send/accept/reject the request of another developer.",
     image: Connect100xdevs,
     url: "https://connect100xdevs.xyz/",
     github: "https://github.com/tanzeem131/Tinder4Devs",
