@@ -26,6 +26,10 @@ import Emailjs from "@/images/emailjs.png";
 import ReactHookForm from "@/images/react-hook-form.png";
 import DaisyUi from "@/images/daisyui.png";
 import AWS from "@/images/aws.png";
+import jwt from "@/images/jwt.png";
+import rq from "@/images/rq.png";
+import graphql from "@/images/graphql.png";
+import nodemailer from "@/images/nodemailer.png";
 
 export type Skill = {
   name: string;
@@ -76,7 +80,7 @@ export const allSkills: Skill[] = [
     img: Python,
   },
   {
-    name: "NodeJS",
+    name: "Node.js",
     url: "https://nodejs.org/en/",
     img: NodeJS,
   },
@@ -166,6 +170,21 @@ export const allSkills: Skill[] = [
     img: Prisma,
   },
   {
+    name: "GraphQL",
+    url: "https://graphql.org/",
+    img: graphql,
+  },
+  {
+    name: "Nodemailer",
+    url: "https://nodemailer.com/",
+    img: nodemailer,
+  },
+  {
+    name: "React Query",
+    url: "https://tanstack.com/query/latest",
+    img: rq,
+  },
+  {
     name: "JestJs",
     url: "https://jestjs.io/",
     img: Jest,
@@ -194,6 +213,11 @@ export const allSkills: Skill[] = [
     name: "MySql",
     url: "https://www.mysql.com/",
     img: MySql,
+  },
+  {
+    name: "JWT",
+    url: "https://www.jwt.io/",
+    img: jwt,
   },
 ];
 

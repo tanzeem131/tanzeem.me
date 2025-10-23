@@ -14,6 +14,12 @@ import Bankist from "@/images/bankist.png";
 import Guess from "@/images/guessingthenumber.png";
 import Edurights from "@/images/edurights.png";
 import Connect100xdevs from "@/images/connnect100xdevs.png";
+import SmartTask from "@/images/SmartTask.png";
+import NFT from "@/images/NFT.png";
+import Espresso from "@/images/Espresso.png";
+import xclone from "@/images/xclone.png";
+import gwi from "@/images/gwi.png";
+import cs from "@/images/cs.png";
 
 export type Project = {
   name: string;
@@ -28,29 +34,28 @@ export const projectsEn: Project[] = [
   {
     name: "Connect100xdevs",
     description:
-      "Building a social media-inspired website for the developer community where developers can send/accept/reject the request of another developer.",
+      "Created a developer-focused social platform where users can connect, chat in real time, and build dynamic portfolios. The app features GitHub login, AI-powered resume formatting, and a fully optimized AWS deployment for seamless performance.",
     image: Connect100xdevs,
     url: "https://connect100xdevs.xyz/",
     github: "https://github.com/tanzeem131/Tinder4Devs",
     technologies: getSkill([
-      "AWS",
-      "NodeJS",
+      "Node.js",
       "Express.Js",
       "MongoDb",
+      "AWS",
       "React",
       "Redux",
       "react-hook-form",
+      "JWT",
       "javascript",
       "TailwindCSS",
       "Daisy UI",
-      "git",
-      "npm",
     ]),
   },
   {
-    name: "Edurights Admission consultancy",
+    name: "Edurights Admission cons.",
     description:
-      "As a freelance developer, designed and developed the full application of an admission consulting website, creating a seamless and intuitive interface for form submissions, enabling prospective students to easily provide their details for personalized consultation and guidance.",
+      "As a freelance developer, I designed and built an admission consulting website with an intuitive, easy-to-use form system that helps students share their details effortlessly for personalized guidance.",
     image: Edurights,
     url: "https://edurights-consultancy.netlify.app/",
     github: "https://github.com/tanzeem131/edurights-admission-consultancy",
@@ -58,11 +63,84 @@ export const projectsEn: Project[] = [
       "React",
       "react-hook-form",
       "javascript",
-      "NodeJS",
+      "Node.js",
       "Express.Js",
       "TailwindCSS",
-      "git",
-      "npm",
+    ]),
+  },
+  {
+    name: "SmartTask",
+    description:
+      "SmartTask aims to provide a lightweight task management system where users can login, create and organize their tasks, and monitor their completion progress from any device.",
+    image: SmartTask,
+    url: "https://smarttask-covalense.netlify.app/",
+    github: "https://github.com/tanzeem131/SmartTask",
+    technologies: getSkill([
+      "React",
+      "javascript",
+      "Node.js",
+      "Express.Js",
+      "MongoDb",
+      "JWT",
+      "TailwindCSS",
+    ]),
+  },
+  {
+    name: "Career Shuruvat",
+    description:
+      "Code Your Future. We'll Handle the Rest.Not Just Another Job Board",
+    image: cs,
+    url: "https://careershuruvat.netlify.app/",
+    github: "https://github.com/Tarunvats9068/job-portal/commits/stg/",
+    technologies: getSkill([
+      "NEXT.js",
+      "typescript",
+      "Node.js",
+      "Express.Js",
+      "Nodemailer",
+      "MongoDb",
+      "JWT",
+      "TailwindCSS",
+    ]),
+  },
+  {
+    name: "Espresso World Events",
+    description:
+      "Built an interactive world events map for Espresso Systems that visualizes past and upcoming events across the globe. Integrated dynamic filtering, location-based search, and responsive UI for a seamless user experience.",
+    image: Espresso,
+    url: "https://espresso-map.netlify.app/",
+    github: "https://github.com/tanzeem131/espresso-event-map",
+    technologies: getSkill(["React", "javascript", "TailwindCSS", "css"]),
+  },
+  {
+    name: "Grow With Influence",
+    description:
+      "The best place to grow your Brand. growwithinfluence offers brands detailed Instagram user data to find and hire influencers for targeted ads",
+    image: gwi,
+    url: "https://growwithinfluence.netlify.app/",
+    github: "https://growwithinfluence.netlify.app/",
+    technologies: getSkill(["NEXT.js", "typescript", "TailwindCSS", "css"]),
+  },
+  {
+    name: "X clone",
+    description: "Created a FullStack Twitter Clone",
+    image: xclone,
+    url: "https://github.com/tanzeem131/TweetLoom",
+    github: "https://github.com/tanzeem131/TweetLoom-Server",
+    technologies: getSkill([
+      "Node.js",
+      "Express.Js",
+      "Prisma",
+      "JWT",
+      "AWS",
+      "PostgreSQL",
+      "Supabase",
+      "Prisma",
+      "GraphQL",
+      "React Query",
+      "typescript",
+      "NEXT.js",
+      "TailwindCSS",
     ]),
   },
   {
@@ -79,9 +157,15 @@ export const projectsEn: Project[] = [
       "JestJs",
       "javascript",
       "TailwindCSS",
-      "git",
-      "npm",
     ]),
+  },
+  {
+    name: "EHYZ NFT",
+    description: "UI for EHYZ NFT website",
+    image: NFT,
+    url: "https://margdarshi.netlify.app/",
+    github: "https://github.com/tanzeem131/margdarshi-frontend",
+    technologies: getSkill(["NEXT.js", "typescript", "TailwindCSS", "css"]),
   },
   {
     name: "Portfolio",
@@ -90,14 +174,7 @@ export const projectsEn: Project[] = [
     image: PortfolioNew,
     url: "https://tanzeem.me/",
     github: "https://github.com/tanzeem131/tanzeem.me",
-    technologies: getSkill([
-      "TypeScript",
-      "NEXT.js",
-      "TailwindCSS",
-      "css",
-      "git",
-      "npm",
-    ]),
+    technologies: getSkill(["TypeScript", "NEXT.js", "TailwindCSS", "css"]),
   },
   {
     name: "Forkify",
