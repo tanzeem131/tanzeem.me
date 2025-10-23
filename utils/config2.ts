@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { Skill, getSkill } from "./config";
+import { Skill, getSkill } from "../utils/config";
 import Forkify from "@/images/forkify.png";
 import PortfolioOld from "@/images/portfolio-old.png";
 import PortfolioNew from "@/images/portfolio-new.png";

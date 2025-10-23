@@ -1,6 +1,6 @@
 import { FaGraduationCap } from "react-icons/fa";
 import { SiFuturelearn, SiFreelancer } from "react-icons/si";
-import "./global.css";
+import "../components/global.css";
 
 interface Milestone {
   id: number;

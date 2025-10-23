@@ -1,9 +1,9 @@
 "use client";
 import React, { useState } from "react";
 import { v4 as uuidv4 } from "uuid";
-import { Project } from "./config2";
+import { Project } from "../utils/config2";
 import { AiFillGithub } from "react-icons/ai";
-import { Skill } from "./config";
+import { Skill } from "../utils/config";
 import "./Projects.css";
 import { text } from "@/helpers/text";
 import Image from "next/image";

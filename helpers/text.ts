@@ -1,5 +1,5 @@
-import { projectsEn } from "@/components/config2";
-import { skillsEn } from "@/components/config";
+import { projectsEn } from "@/utils/config2";
+import { skillsEn } from "@/utils/config";
 
 export const text = {
   en: {

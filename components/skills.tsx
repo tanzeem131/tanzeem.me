@@ -1,4 +1,4 @@
-import { Skill, SkillsType } from "./config";
+import { Skill, SkillsType } from "../utils/config";
 import { v4 as uuidv4 } from "uuid";
 import "./Skills.css";
 import { text } from "../helpers/text";

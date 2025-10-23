@@ -1,4 +1,4 @@
-import { timelineData } from "./config3";
+import { timelineData } from "../utils/config3";
 import "./global.css";
 import "./About.css";
 import { text } from "@/helpers/text";
